@@ -1,0 +1,57 @@
+body {
+    background-image: url(images/david-martin-dIdE2kS9Dds-unsplash.jpg);
+    background-size: cover;
+    
+}
+
+div.text {
+    display: flex;
+    background-color:darksalmon;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+   color: yellow;
+   text-align: center;
+   margin-top: 10px;
+}
+
+kbd {
+    font-family: Arial;
+    font-size: 25px;
+    color: yellow;
+    font-weight: bold;
+}
+
+div.keys {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2.5rem;
+    justify-content: center;
+    margin-top: 25%;    
+}
+
+div.key {
+    width: 60px;
+    height: 60px;
+    background-color: darksalmon;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition:all 0.07s;
+}
+
+div.playing {
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: scale(1.1);
+    border-style: solid;
+    border-color: darksalmon;
+}
